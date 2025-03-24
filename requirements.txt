@@ -1,0 +1,9 @@
+fastapi
+itsdangerous
+pydantic
+pytest
+python-dotenv
+requests
+responses
+schedule
+sqlmodel
