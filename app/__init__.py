@@ -14,5 +14,10 @@ class Settings(CronSettings):
 
 
 @lru_cache
+def get_cron_settings() -> CronSettings:
+    return CronSettings() # type: ignore[call-arg]
+
+
+@lru_cache
 def get_settings() -> Settings:
-    return Settings()
+    return Settings() # type: ignore[call-arg]
