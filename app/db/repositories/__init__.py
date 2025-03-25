@@ -7,6 +7,7 @@ from app.db.models.base import GenericModel
 
 T = TypeVar("T", bound=GenericModel)
 
+
 class GenericRepository(Generic[T]):
     def __init__(self, session: Session, model_cls: Type[T]) -> None:
         self._session = session
