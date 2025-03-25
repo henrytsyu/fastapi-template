@@ -1,10 +1,7 @@
-fastapi
-itsdangerous
+fastapi[standard]
 pydantic
-pytest
+pydantic-settings
 python-dotenv
-requests
-responses
 schedule
-sqladmin
+sqladmin[full]
 sqlmodel
