@@ -1,7 +1,7 @@
 from typing import List
 from sqlmodel import Session, select
 from . import GenericRepository
-from app.db.models.base.example import Example
+from app.db.models.example import Example
 
 
 class ExampleRepository(GenericRepository[Example]):
